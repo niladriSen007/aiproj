@@ -3,7 +3,6 @@ import { useState } from "react";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
 export default function Home() {
-  // const API_K = "AIzaSyBFUi8s_Y2Cs5DYSvDZYtIvpKZjKT8CPMk";
 
   const [file, setFile] = useState(null);
   const [prompt, setPrompt] = useState("");
